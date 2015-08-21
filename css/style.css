@@ -1,9 +1,97 @@
+/*NAV*/
+
+
+
 /*JUMBOTRON*/
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../img/apt1.jpg);
+    background-image: url(../img/watercolor-blue.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 500px;
+}
+
+.jumbotron-text {
+	padding-top: 190px;
+	color: white;
+}
+
+/*CONTACT BUTTON*/
+
+.contact-btn {
+	background-image: url(../img/geo-blue-shell.jpg);
+	background-color: #B5DAFF;
+}
+
+.btn-contact {
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #0000FF;	
+}
+
+/*SERVICES*/
+
+.img-service {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.img-btn {
+	width: 65px;
+	height: 80px;
+	padding-bottom: 10px;
+}
+
+.line-separator {
+	height: 4px;
+	width: 70px;
+	margin: 0 auto;
+	background: #000033;
+	margin-bottom: 10px;
+	border-radius: 10px; 
+}
+
+/*PRODUCTS*/
+
+.products {
+	text-align: center;
+}
+
+.products img {
+	height: 170px;
+	width: 150px;
+}
+
+.desc-text {
+	margin-left: 10px;
+}
+
+/*FOOTER*/
+
+footer {
+	background: #C0D8F2;
+	color:#fff;
+	padding:20px 0 10px 0
+}
+
+footer li {
+	float:left;
+	padding:0 10px 0 10px;
+	list-style:none
+}
+
+a {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: none;
 }
