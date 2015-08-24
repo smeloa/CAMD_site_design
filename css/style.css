@@ -18,6 +18,10 @@
 	color: white;
 }
 
+.jumbotron-text h1 {
+	text-decoration: underline;
+}
+
 /*CONTACT BUTTON*/
 
 .contact-btn {
@@ -36,12 +40,12 @@
 
 /*SERVICES*/
 
-.img-service {
+.service {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
-.img-btn {
+.img-service {
 	width: 65px;
 	height: 80px;
 	padding-bottom: 10px;
@@ -60,23 +64,30 @@
 
 .products {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
-.products img {
+.products img {	
 	height: 170px;
 	width: 150px;
 }
 
-.desc-text {
-	margin-left: 10px;
+.desc-header {
+	padding-top: 10px;
+}
+
+.product-highlight {
+	width: 100%;
+	padding-bottom: 2px;
+	background: #E6E6E6
 }
 
 /*FOOTER*/
 
 footer {
-	background: #C0D8F2;
+	background: #000000;
 	color:#fff;
-	padding:20px 0 10px 0
+	padding:10px 0 10px 0
 }
 
 footer li {
@@ -94,4 +105,15 @@ a:hover,
 a:focus {
   color: #23527c;
   text-decoration: none;
+}
+
+/*CONTACT*/
+
+#contact {
+	padding: 100px 0 40px 0;
+} 
+
+.demo {
+	width: 100%;
+	padding: 3px;
 }
