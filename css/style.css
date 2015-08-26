@@ -1,12 +1,23 @@
-/*NAV*/
+/*GENERAL*/
 
+body {
+	font-family: 'Lato', sans-serif;
+}	
 
+/*CAROUSEL*/
 
-/*JUMBOTRON*/
+#carousel img {
+	height: 600px;
+	width: 100%;
+}
+
+/*JUMBOTRON: Left here in case of future use*/
+
+/*
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../img/watercolor-blue.jpg);
+    background-image: url(../img/slider1.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,6 +33,8 @@
 	text-decoration: underline;
 }
 
+*/
+
 /*CONTACT BUTTON*/
 
 .contact-btn {
@@ -31,6 +44,15 @@
 
 .btn-contact {
 	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	background-color: #0000FF;	
+}
+
+.btn-contact-small {
+	width: 200px;
 	height: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -113,7 +135,21 @@ a:focus {
 	padding: 100px 0 40px 0;
 } 
 
+.contact-section {
+	height: 150px;
+}
+
+.btn-contact-center {
+	margin-top: 50px;
+}
+
 .demo {
 	width: 100%;
 	padding: 3px;
+}
+
+/*SERVICES*/
+
+.about {
+	text-decoration: underline;
 }
