@@ -169,4 +169,7 @@ a:focus {
 		background-image: none;
 		background-color: rgba(0, 2, 65, 0.8);	
 	}
+	.jumbotron-text {
+		padding-top: 30px;
+	}
 }
