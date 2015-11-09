@@ -30,6 +30,7 @@ html {
 .jumbotron-text {
 	padding-top: 190px;
 	color: white;
+	text-align: center;
 }
 
 .jumbotron-text h1 {
@@ -162,17 +163,10 @@ a:focus {
 
 /*Media Queries*/
 
-@media(min-width: 769px){
+@media only screen and (max-width: 500px){
 	.jumbotron {
-		display: none;
-	}
-}
-
-@media(max-width: 768px){
-	.jumbotron {
-		text-align: center;	
-	}
-	.carousel {
-		display: none;
+		height: 300px;
+		background-image: none;
+		background-color: rgba(0, 2, 65, 0.8);	
 	}
 }
